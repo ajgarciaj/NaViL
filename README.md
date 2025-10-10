@@ -1,6 +1,6 @@
 # NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints (NeurIPS 2025)
 
-[[📜 Paper]](xxx) [[⭐️Project Page]](xxx) [[🤗 Model]](https://huggingface.co/collections/OpenGVLab/navil-68e62e7d20ea3e4097b56778) [[📝 中文版]](README-zh.md)
+[[📜 Paper]](https://arxiv.org/abs/2510.08565) [[⭐️Project Page]](https://internvl.github.io/blog/2025-10-10-NaViL/) [[🤗 Model]](https://huggingface.co/collections/OpenGVLab/navil-68e62e7d20ea3e4097b56778) [[📝 中文版]](README-zh.md)
 
 ## 📖 Abstract
 
@@ -36,7 +36,7 @@ We conducted a systematic study on the design and scaling properties of native M
     <img src="images/comparison_vit_size_vs_llm_size.png" alt="Visual Encoder vs LLM Scaling" style="width: 60%; height: auto;" />
     </p>
 
-For more details, please refer to the original [paper](xxx).
+For more details, please refer to the original [paper](https://arxiv.org/abs/2510.08565).
 
 ## 🏗️ NaViL Architecture
 
@@ -59,7 +59,7 @@ We conducted a comprehensive evaluation of NaViL on 14 mainstream multimodal ben
 
 With comparable parameter sizes, NaViL-2B and NaViL-9B **surpass all existing native MLLMs in average performance** and achieve a level comparable to top-tier compositional MLLMs (e.g., InternVL-2.5, Qwen2.5-VL). This demonstrates the superiority of our proposed native training paradigm and scaling laws.
 
-| Model | #A-Param | Avg | MMVet | MMMU | MMB | MME | MathVista | OCR-B | TextVQA | DocVQA | AI2D | ChartQA | InfoVQA |
+| Model | #A-Param | Avg | MMVet | MMMU | MMB | MME | MathVista | OCR-Bench | TextVQA | DocVQA | AI2D | ChartQA | InfoVQA |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **_Compositional MLLMs_** |
 | [Qwen2.5-VL](https://github.com/QwenLM/Qwen-VL) | 8.2B | 80.2 | 67.1 | 58.6 | 83.5 | 2347 | 68.2 | 864 | 84.9 | 95.7 | 83.9 | 87.3 | 82.6 |
